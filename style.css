@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: Forte;
+}
+body{
+ background-color: rgb(75, 74, 74);
+} 
+.app{
+ /* border: 1px solid black; */
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.head{
+   width: 100%; 
+   /* border: 2px solid blue; */
+   margin: 20px 0;
+   padding: 20px 0;
+   text-align: center;
+   font-size: 30px ;
+   color: greenyellow;
+   cursor: pointer;
+}
+.input{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+#todo {
+width: 600px;
+height: 8vh;
+margin: 0px 50px  ;
+ border-radius:10px  ;
+ border: 1px solid greenyellow;
+font-size: 20px ;
+}
+.btn{
+    width: 100px ;
+    border-radius:10px;
+    background-color: greenyellow;
+    font-size: 16px ;
+    font-weight: bold;
+    margin: 0px 10px;
+   cursor: pointer;
+   border: none;
+}
+#ul{
+    list-style: none;
+    width: 100%;
+    padding: 40px ;
+    font-size: 30px ;
+     color: greenyellow; 
+    margin-top: 20px ;
+    border: 5px solid greenyellow;
+    height: 200vh;
+}
+
+.dlbuttn{
+margin-left: 40px !important ;
+width: 100px ;
+height: 5vh;
+border-radius:10px;
+background-color: greenyellow;
+font-size: 16px ;
+font-weight: bold;
+margin: 0px 10px;
+cursor: pointer;
+border: none;
+}
+.liststyle{
+    width: 100%;
+    padding:30px 10px ;
+    margin:30px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:500px){
+    .head{
+        font-size: 20px;
+    }
+    .input{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .btn{
+        margin-top: 30px;
+        height: 6vh;
+    }
+    #ul{
+     padding: 10px;
+       width: 100%;
+      
+    }
+    .liststyle{
+
+        width: 80%;
+   font-size: 15px;
+   margin: 20px 0px ;
+   padding: 5px;
+   display: flex;
+   flex-wrap: wrap;
+ 
+  
+    
+    }
+    .dlbuttn{
+        margin: 10px 0px;
+        height: 4vh;
+      
+        
+       
+    }
+}

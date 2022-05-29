@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+<body>
+    <div class="app">
+      <div class="head">  <h1 class="animate__animated animate__zoomIn">  TODO APPLICATION</h1></div>
+        <br>
+        <div class="input"> <input type="text"  id="todo" placeholder="" >
+       <button class="btn" onclick="btnval()"> ADD ITEMS</button>
+       <button class="btn" onclick="deleteall()">DELETE ALL</button>
+</div>
+    </div>
+    <div >
+        <ul id="ul" class="animate__animated animate__zoomInDown">
+
+        </ul>
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>
